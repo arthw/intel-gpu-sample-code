@@ -15,3 +15,19 @@ Activate oneAPI Running Environment
 source /opt/intel/oneapi/setvars.sh
 ```
 
+## Download Sample Code
+
+1. Single GPU
+
+```
+wget https://raw.githubusercontent.com/arthw/intel-gpu-sample-code/main/tf2_keras_mnist_gpu.py
+python tf2_keras_mnist_gpu.py
+```
+
+
+2. Multiple GPU
+
+```
+wget https://raw.githubusercontent.com/arthw/intel-gpu-sample-code/main/tf2_hvd_keras_mnist_gpu.py
+python tf2_hvd_keras_mnist_gpu.py
+```
